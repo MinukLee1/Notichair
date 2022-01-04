@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "436188374010",
+    "project_id": "notichair-703be",
+    "storage_bucket": "notichair-703be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436188374010:android:44f78c0a061740563bfa43",
+        "android_client_info": {
+          "package_name": "com.example.notichair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436188374010-63ddrgass2bbd9c8hn2um1tnac44u59m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCorfSBTaH10AVtWj3CAGftELWChf-lrMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436188374010-63ddrgass2bbd9c8hn2um1tnac44u59m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436188374010:android:231677386179bd143bfa43",
+        "android_client_info": {
+          "package_name": "com.tennessee.notichair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436188374010-63ddrgass2bbd9c8hn2um1tnac44u59m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCorfSBTaH10AVtWj3CAGftELWChf-lrMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436188374010-63ddrgass2bbd9c8hn2um1tnac44u59m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
