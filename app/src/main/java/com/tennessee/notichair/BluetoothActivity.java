@@ -55,7 +55,7 @@ public class BluetoothActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bluetooth);
+        setContentView(R.layout.fragment_bluetooth);
 
         mTvBluetoothStatus = findViewById(R.id.tvBluetoothStatus);
         // mTvSendData = findViewById(R.id.tvSendData);
@@ -154,7 +154,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[0] < 20) {
                         sensor0.setImageResource(R.drawable.blue);
-                    } else if (seInt[0] >= 20 && seInt[0] < 150) {
+                    } else if (seInt[0] >= 20 && seInt[0] < 140) {
                         sensor0.setImageResource(R.drawable.green);
                     } else {
                         sensor0.setImageResource(R.drawable.red);
@@ -162,7 +162,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[1] < 20) {
                         sensor1.setImageResource(R.drawable.blue);
-                    } else if (seInt[1] >= 20 && seInt[1] < 150) {
+                    } else if (seInt[1] >= 20 && seInt[1] < 140) {
                         sensor1.setImageResource(R.drawable.green);
                     } else {
                         sensor1.setImageResource(R.drawable.red);
@@ -170,7 +170,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[2] < 20) {
                         sensor2.setImageResource(R.drawable.blue);
-                    } else if (seInt[2] >= 20 && seInt[2] < 150) {
+                    } else if (seInt[2] >= 20 && seInt[2] < 140) {
                         sensor2.setImageResource(R.drawable.green);
                     } else {
                         sensor2.setImageResource(R.drawable.red);
@@ -178,7 +178,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[3] < 20) {
                         sensor3.setImageResource(R.drawable.blue);
-                    } else if (seInt[3] >= 20 && seInt[3] < 150) {
+                    } else if (seInt[3] >= 20 && seInt[3] < 140) {
                         sensor3.setImageResource(R.drawable.green);
                     } else {
                         sensor3.setImageResource(R.drawable.red);
@@ -186,7 +186,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[4] < 20) {
                         sensor4.setImageResource(R.drawable.blue);
-                    } else if (seInt[4] >= 20 && seInt[4] < 150) {
+                    } else if (seInt[4] >= 20 && seInt[4] < 140) {
                         sensor4.setImageResource(R.drawable.green);
                     } else {
                         sensor4.setImageResource(R.drawable.red);
@@ -194,7 +194,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[5] < 20) {
                         sensor5.setImageResource(R.drawable.blue);
-                    } else if (seInt[5] >= 20 && seInt[5] < 150) {
+                    } else if (seInt[5] >= 20 && seInt[5] < 140) {
                         sensor5.setImageResource(R.drawable.green);
                     } else {
                         sensor5.setImageResource(R.drawable.red);
@@ -202,7 +202,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[6] < 20) {
                         sensor6.setImageResource(R.drawable.blue);
-                    } else if (seInt[6] >= 20 && seInt[6] < 150) {
+                    } else if (seInt[6] >= 20 && seInt[6] < 140) {
                         sensor6.setImageResource(R.drawable.green);
                     } else {
                         sensor6.setImageResource(R.drawable.red);
@@ -210,7 +210,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[7] < 20) {
                         sensor7.setImageResource(R.drawable.blue);
-                    } else if (seInt[7] >= 20 && seInt[7] < 150) {
+                    } else if (seInt[7] >= 20 && seInt[7] < 140) {
                         sensor7.setImageResource(R.drawable.green);
                     } else {
                         sensor7.setImageResource(R.drawable.red);
@@ -218,7 +218,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[8] < 20) {
                         sensor8.setImageResource(R.drawable.blue);
-                    } else if (seInt[8] >= 20 && seInt[8] < 150) {
+                    } else if (seInt[8] >= 20 && seInt[8] < 140) {
                         sensor8.setImageResource(R.drawable.green);
                     } else {
                         sensor8.setImageResource(R.drawable.red);
@@ -226,7 +226,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[9] < 20) {
                         sensor9.setImageResource(R.drawable.blue);
-                    } else if (seInt[9] >= 20 && seInt[9] < 150) {
+                    } else if (seInt[9] >= 20 && seInt[9] < 140) {
                         sensor9.setImageResource(R.drawable.green);
                     } else {
                         sensor9.setImageResource(R.drawable.red);
@@ -234,7 +234,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[10] < 20) {
                         sensor10.setImageResource(R.drawable.blue);
-                    } else if (seInt[10] >= 20 && seInt[10] < 150) {
+                    } else if (seInt[10] >= 20 && seInt[10] < 140) {
                         sensor10.setImageResource(R.drawable.green);
                     } else {
                         sensor10.setImageResource(R.drawable.red);
@@ -242,14 +242,14 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[11] < 20) {
                         sensor11.setImageResource(R.drawable.blue);
-                    } else if (seInt[11] >= 20 && seInt[11] < 150) {
+                    } else if (seInt[11] >= 20 && seInt[11] < 140) {
                         sensor11.setImageResource(R.drawable.green);
                     } else {
                         sensor11.setImageResource(R.drawable.red);
                     }
                     if (seInt[12] < 20) {
                         sensor12.setImageResource(R.drawable.blue);
-                    } else if (seInt[12] >= 20 && seInt[12] < 150) {
+                    } else if (seInt[12] >= 20 && seInt[12] < 140) {
                         sensor12.setImageResource(R.drawable.green);
                     } else {
                         sensor12.setImageResource(R.drawable.red);
@@ -257,7 +257,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[13] < 20) {
                         sensor13.setImageResource(R.drawable.blue);
-                    } else if (seInt[13] >= 20 && seInt[13] < 150) {
+                    } else if (seInt[13] >= 20 && seInt[13] < 140) {
                         sensor13.setImageResource(R.drawable.green);
                     } else {
                         sensor13.setImageResource(R.drawable.red);
@@ -265,7 +265,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[14] < 20) {
                         sensor14.setImageResource(R.drawable.blue);
-                    } else if (seInt[14] >= 20 && seInt[14] < 150) {
+                    } else if (seInt[14] >= 20 && seInt[14] < 140) {
                         sensor14.setImageResource(R.drawable.green);
                     } else {
                         sensor14.setImageResource(R.drawable.red);
@@ -273,7 +273,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[15] < 20) {
                         sensor15.setImageResource(R.drawable.blue);
-                    } else if (seInt[15] >= 20 && seInt[15] < 150) {
+                    } else if (seInt[15] >= 20 && seInt[15] < 140) {
                         sensor15.setImageResource(R.drawable.green);
                     } else {
                         sensor15.setImageResource(R.drawable.red);
@@ -281,7 +281,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[16] < 20) {
                         sensor16.setImageResource(R.drawable.blue);
-                    } else if (seInt[16] >= 20 && seInt[16] < 150) {
+                    } else if (seInt[16] >= 20 && seInt[16] < 140) {
                         sensor16.setImageResource(R.drawable.green);
                     } else {
                         sensor16.setImageResource(R.drawable.red);
@@ -289,7 +289,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[17] < 20) {
                         sensor17.setImageResource(R.drawable.blue);
-                    } else if (seInt[17] >= 20 && seInt[17] < 150) {
+                    } else if (seInt[17] >= 20 && seInt[17] < 140) {
                         sensor17.setImageResource(R.drawable.green);
                     } else {
                         sensor17.setImageResource(R.drawable.red);
@@ -297,7 +297,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[18] < 20) {
                         sensor18.setImageResource(R.drawable.blue);
-                    } else if (seInt[18] >= 20 && seInt[18] < 150) {
+                    } else if (seInt[18] >= 20 && seInt[18] < 140) {
                         sensor18.setImageResource(R.drawable.green);
                     } else {
                         sensor18.setImageResource(R.drawable.red);
@@ -305,7 +305,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[19] < 20) {
                         sensor19.setImageResource(R.drawable.blue);
-                    } else if (seInt[19] >= 20 && seInt[19] < 150) {
+                    } else if (seInt[19] >= 20 && seInt[19] < 140) {
                         sensor19.setImageResource(R.drawable.green);
                     } else {
                         sensor19.setImageResource(R.drawable.red);
@@ -313,7 +313,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[20] < 20) {
                         sensor20.setImageResource(R.drawable.blue);
-                    } else if (seInt[20] >= 20 && seInt[20] < 150) {
+                    } else if (seInt[20] >= 20 && seInt[20] < 140) {
                         sensor20.setImageResource(R.drawable.green);
                     } else {
                         sensor20.setImageResource(R.drawable.red);
@@ -321,7 +321,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[21] < 20) {
                         sensor21.setImageResource(R.drawable.blue);
-                    } else if (seInt[21] >= 20 && seInt[21] < 150) {
+                    } else if (seInt[21] >= 20 && seInt[21] < 140) {
                         sensor21.setImageResource(R.drawable.green);
                     } else {
                         sensor21.setImageResource(R.drawable.red);
@@ -329,42 +329,42 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[22] < 20) {
                         sensor22.setImageResource(R.drawable.blue);
-                    } else if (seInt[22] >= 20 && seInt[22] < 150) {
+                    } else if (seInt[22] >= 20 && seInt[22] < 140) {
                         sensor22.setImageResource(R.drawable.green);
                     } else {
                         sensor22.setImageResource(R.drawable.red);
                     }
                     if (seInt[23] < 20) {
                         sensor23.setImageResource(R.drawable.blue);
-                    } else if (seInt[23] >= 20 && seInt[23] < 150) {
+                    } else if (seInt[23] >= 20 && seInt[23] < 140) {
                         sensor23.setImageResource(R.drawable.green);
                     } else {
                         sensor23.setImageResource(R.drawable.red);
                     }
                     if (seInt[24] < 20) {
                         sensor24.setImageResource(R.drawable.blue);
-                    } else if (seInt[24] >= 20 && seInt[24] < 150) {
+                    } else if (seInt[24] >= 20 && seInt[24] < 140) {
                         sensor24.setImageResource(R.drawable.green);
                     } else {
                         sensor24.setImageResource(R.drawable.red);
                     }
                     if (seInt[25] < 20) {
                         sensor25.setImageResource(R.drawable.blue);
-                    } else if (seInt[25] >= 20 && seInt[25] < 150) {
+                    } else if (seInt[25] >= 20 && seInt[25] < 140) {
                         sensor25.setImageResource(R.drawable.green);
                     } else {
                         sensor25.setImageResource(R.drawable.red);
                     }
                     if (seInt[26] < 20) {
                         sensor26.setImageResource(R.drawable.blue);
-                    } else if (seInt[26] >= 20 && seInt[26] < 150) {
+                    } else if (seInt[26] >= 20 && seInt[26] < 140) {
                         sensor26.setImageResource(R.drawable.green);
                     } else {
                         sensor26.setImageResource(R.drawable.red);
                     }
                     if (seInt[27] < 20) {
                         sensor27.setImageResource(R.drawable.blue);
-                    } else if (seInt[27] >= 20 && seInt[27] < 150) {
+                    } else if (seInt[27] >= 20 && seInt[27] < 140) {
                         sensor27.setImageResource(R.drawable.green);
                     } else {
                         sensor27.setImageResource(R.drawable.red);
@@ -372,7 +372,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[28] < 20) {
                         sensor28.setImageResource(R.drawable.blue);
-                    } else if (seInt[28] >= 20 && seInt[28] < 150) {
+                    } else if (seInt[28] >= 20 && seInt[28] < 140) {
                         sensor28.setImageResource(R.drawable.green);
                     } else {
                         sensor28.setImageResource(R.drawable.red);
@@ -380,7 +380,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[29] < 20) {
                         sensor29.setImageResource(R.drawable.blue);
-                    } else if (seInt[29] >= 20 && seInt[29] < 150) {
+                    } else if (seInt[29] >= 20 && seInt[29] < 140) {
                         sensor29.setImageResource(R.drawable.green);
                     } else {
                         sensor29.setImageResource(R.drawable.red);
@@ -388,7 +388,7 @@ public class BluetoothActivity extends AppCompatActivity {
 
                     if (seInt[30] < 20) {
                         sensor30.setImageResource(R.drawable.blue);
-                    } else if (seInt[30] >= 20 && seInt[30] < 150) {
+                    } else if (seInt[30] >= 20 && seInt[30] < 140) {
                         sensor30.setImageResource(R.drawable.green);
                     } else {
                         sensor30.setImageResource(R.drawable.red);

@@ -17,10 +17,9 @@
 
     <!-- Bottom Navigation View -->
     <string name="home">home</string>
-    <string name="search">Search</string>
-    <string name="gallery">Gallery</string>
-    <string name="favorite">Favorite</string>
-    <string name="account">Account</string>
+    <string name="sensorview">view</string>
+    <string name="mypage">mypage</string>
+
 
     <!-- Account -->
     <string name="post">Post</string>

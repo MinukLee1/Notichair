@@ -7,15 +7,15 @@
         android:enabled="true"
         android:title="@string/home" />
     <item
-        android:id="@+id/action_search"
+        android:id="@+id/action_sensorview"
         android:icon="@drawable/ic_search"
         android:enabled="true"
-        android:title="@string/home" />
+        android:title="@string/sensorview" />
 
     <item
-        android:id="@+id/action_favortie_alarm"
+        android:id="@+id/action_mypage"
         android:icon="@drawable/ic_favorite_border"
         android:enabled="true"
-        android:title="@string/home" />
+        android:title="@string/mypage" />
 
 </menu>
