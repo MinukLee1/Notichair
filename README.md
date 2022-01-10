@@ -59,24 +59,9 @@
   minSdkVersion 18<br>
   ext.kotlin_version = "1.5.0"
   <br><br>
+
+
 <br>
-
-
-| **Category**  | <center>**Tools**</center>  | **Version**  |
-| :------------: | ------------| :------------: |
-| **Jetson-nano** | Image  |  jetson-nano-jp451  |
-|   | python  | 3.6.9  |
-| **Application** | AndroidStudio  |  4.1.0 |
-|   | compileSdkVersion  | 30  |
-|   | buildToolsVersion  | 30.0.2  |
-| **Server**  | OS  | CentOS 7.9 2009  |
-|   | Django | 3.2.2  |
-|   | DjangoRestframework  |  3.12.4 |
-|   | Gunicorm  | 20.1.0  |
-|   | MySql-Client  |  2.0.3 |
-| **DataBase**  | MySql  | 8.0.25  |
-
-<br><br>
 
 ## 주요 기술 및 기능
 
