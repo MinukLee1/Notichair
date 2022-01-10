@@ -24,6 +24,7 @@ import java.security.NoSuchAlgorithmException
 
 
 class LoginActivity : AppCompatActivity() {
+
     var auth: FirebaseAuth? = null
     var googleSignInClient : GoogleSignInClient? = null
     var GOOGLE_LOGIN_CODE = 9001;
