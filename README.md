@@ -7,11 +7,9 @@
 <br> 
 
 ### 요구사항
-* [NVIDIA Jetson Nano Development Kit-B01](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
+* [31-cell sensor(mdxs-16-5610)](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
 
-    ![jetsnoback](https://user-images.githubusercontent.com/46085058/131222247-93795620-346a-4c82-a206-72a8e600f5a6.png)
     ![방석센서1](https://user-images.githubusercontent.com/74412438/148777486-e8487852-7f4d-4872-810c-7eddaafb777c.png)
-![방석센서](https://user-images.githubusercontent.com/74412438/148777682-ef9cf55c-8286-4348-af51-da99fc09ec17.png)
 
 ## 목차
 ### 1. 소개
