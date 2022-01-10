@@ -10,7 +10,7 @@
 
 
 ![방석센서1](https://user-images.githubusercontent.com/74412438/148777486-e8487852-7f4d-4872-810c-7eddaafb777c.png)<br>
-**31-cell sensor** (mdxs-16-5610)<br>
+**31-cell sensor** (mdxs-16-5610)<br><br>
 # 다운받기 전 필요한 부분
 
 - 안드로이드 스튜디오 3.4.0 이상의 버전
