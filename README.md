@@ -17,16 +17,16 @@
 
 
 ### 2. 개발 환경
-- [ 사전 설정 및 환경 구축 ](https://github.com/)
+- 사전 설정 및 환경 구축
 
 ### 3. 기능
-- [ 데이터셋 구축 - Lableme ](https://github.com/)
-- [ 도로 구분 - Semantic Segmentation ](https://github.com/)
-- [ Sensors ](https://github.com/)
-- [ App & Server ](https://github.com/)
+- 데이터셋 구축 - Lableme
+- 도로 구분 - Semantic Segmentation
+- Sensors
+- App & Server
 
 ### 4. 결론
-- [ 결론 ](https://github.com/)
+- 결론
 
 
 <br>
