@@ -5,6 +5,7 @@ import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -18,6 +19,7 @@ import android.widget.Toast;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -29,14 +31,13 @@ import java.util.Set;
 import java.util.UUID;
 
 public class BluetoothActivity extends AppCompatActivity {
-    TextView mTvBluetoothStatus;
     Button mBtnBluetoothOn;
     Button mBtnBluetoothOff;
     Button mBtnConnect;
 
-    ImageView sensor0, sensor1, sensor2, sensor3, sensor4, sensor5, sensor6, sensor7, sensor8, sensor9, sensor10;
-    ImageView sensor11, sensor12, sensor13, sensor14, sensor15, sensor16, sensor17, sensor18, sensor19, sensor20;
-    ImageView sensor21, sensor22, sensor23, sensor24, sensor25, sensor26, sensor27, sensor28, sensor29, sensor30;
+    CardView sensor0, sensor1, sensor2, sensor3, sensor4, sensor5, sensor6, sensor7, sensor8, sensor9, sensor10;
+    CardView sensor11, sensor12, sensor13, sensor14, sensor15, sensor16, sensor17, sensor18, sensor19, sensor20;
+    CardView sensor21, sensor22, sensor23, sensor24, sensor25, sensor26, sensor27, sensor28, sensor29, sensor30;
 
     BluetoothAdapter mBluetoothAdapter;
     Set<BluetoothDevice> mPairedDevices;
@@ -57,7 +58,6 @@ public class BluetoothActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_bluetooth);
 
-        mTvBluetoothStatus = findViewById(R.id.tvBluetoothStatus);
         // mTvSendData = findViewById(R.id.tvSendData);
         mBtnBluetoothOn = findViewById(R.id.btnBluetoothOn);
         mBtnBluetoothOff = findViewById(R.id.btnBluetoothOff);
@@ -153,245 +153,375 @@ public class BluetoothActivity extends AppCompatActivity {
                     }
 
                     if (seInt[0] < 20) {
-                        sensor0.setImageResource(R.drawable.blue);
-                    } else if (seInt[0] >= 20 && seInt[0] < 140) {
-                        sensor0.setImageResource(R.drawable.green);
+                        sensor0.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[0] >= 20 && seInt[0] < 70) {
+                        sensor0.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[0] >= 70 && seInt[0] < 120) {
+                        sensor0.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[0] >= 120 && seInt[0] < 170) {
+                        sensor0.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor0.setImageResource(R.drawable.red);
+                        sensor0.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[1] < 20) {
-                        sensor1.setImageResource(R.drawable.blue);
-                    } else if (seInt[1] >= 20 && seInt[1] < 140) {
-                        sensor1.setImageResource(R.drawable.green);
+                        sensor1.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[1] >= 20 && seInt[1] < 70) {
+                        sensor1.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[1] >= 70 && seInt[1] < 120) {
+                        sensor1.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[1] >= 120 && seInt[1] < 170) {
+                        sensor1.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor1.setImageResource(R.drawable.red);
+                        sensor1.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[2] < 20) {
-                        sensor2.setImageResource(R.drawable.blue);
-                    } else if (seInt[2] >= 20 && seInt[2] < 140) {
-                        sensor2.setImageResource(R.drawable.green);
+                        sensor2.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[2] >= 20 && seInt[2] < 70) {
+                        sensor2.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[2] >= 70 && seInt[2] < 120) {
+                        sensor2.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[2] >= 120 && seInt[2] < 170) {
+                        sensor2.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor2.setImageResource(R.drawable.red);
+                        sensor2.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[3] < 20) {
-                        sensor3.setImageResource(R.drawable.blue);
-                    } else if (seInt[3] >= 20 && seInt[3] < 140) {
-                        sensor3.setImageResource(R.drawable.green);
+                        sensor3.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[3] >= 20 && seInt[3] < 70) {
+                        sensor3.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[3] >= 70 && seInt[3] < 120) {
+                        sensor3.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[3] >= 120 && seInt[3] < 170) {
+                        sensor3.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor3.setImageResource(R.drawable.red);
+                        sensor3.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[4] < 20) {
-                        sensor4.setImageResource(R.drawable.blue);
-                    } else if (seInt[4] >= 20 && seInt[4] < 140) {
-                        sensor4.setImageResource(R.drawable.green);
+                        sensor4.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[4] >= 20 && seInt[4] < 70) {
+                        sensor4.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[4] >= 70 && seInt[4] < 120) {
+                        sensor4.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[4] >= 120 && seInt[4] < 170) {
+                        sensor4.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor4.setImageResource(R.drawable.red);
+                        sensor4.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[5] < 20) {
-                        sensor5.setImageResource(R.drawable.blue);
-                    } else if (seInt[5] >= 20 && seInt[5] < 140) {
-                        sensor5.setImageResource(R.drawable.green);
+                        sensor5.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[5] >= 20 && seInt[5] < 70) {
+                        sensor5.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[5] >= 70 && seInt[5] < 120) {
+                        sensor5.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[5] >= 120 && seInt[5] < 170) {
+                        sensor5.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor5.setImageResource(R.drawable.red);
+                        sensor5.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[6] < 20) {
-                        sensor6.setImageResource(R.drawable.blue);
-                    } else if (seInt[6] >= 20 && seInt[6] < 140) {
-                        sensor6.setImageResource(R.drawable.green);
+                        sensor6.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[6] >= 20 && seInt[6] < 70) {
+                        sensor6.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[6] >= 70 && seInt[6] < 120) {
+                        sensor6.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[6] >= 120 && seInt[6] < 170) {
+                        sensor6.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor6.setImageResource(R.drawable.red);
+                        sensor6.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[7] < 20) {
-                        sensor7.setImageResource(R.drawable.blue);
-                    } else if (seInt[7] >= 20 && seInt[7] < 140) {
-                        sensor7.setImageResource(R.drawable.green);
+                        sensor7.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[7] >= 20 && seInt[7] < 70) {
+                        sensor7.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[7] >= 70 && seInt[7] < 120) {
+                        sensor7.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[7] >= 120 && seInt[7] < 170) {
+                        sensor7.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor7.setImageResource(R.drawable.red);
+                        sensor7.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[8] < 20) {
-                        sensor8.setImageResource(R.drawable.blue);
-                    } else if (seInt[8] >= 20 && seInt[8] < 140) {
-                        sensor8.setImageResource(R.drawable.green);
+                        sensor8.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[8] >= 20 && seInt[8] < 70) {
+                        sensor8.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[8] >= 70 && seInt[8] < 120) {
+                        sensor8.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[8] >= 120 && seInt[8] < 170) {
+                        sensor8.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor8.setImageResource(R.drawable.red);
+                        sensor8.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[9] < 20) {
-                        sensor9.setImageResource(R.drawable.blue);
-                    } else if (seInt[9] >= 20 && seInt[9] < 140) {
-                        sensor9.setImageResource(R.drawable.green);
+                        sensor9.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[9] >= 20 && seInt[9] < 70) {
+                        sensor9.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[9] >= 70 && seInt[9] < 120) {
+                        sensor9.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[9] >= 120 && seInt[9] < 170) {
+                        sensor9.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor9.setImageResource(R.drawable.red);
+                        sensor9.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[10] < 20) {
-                        sensor10.setImageResource(R.drawable.blue);
-                    } else if (seInt[10] >= 20 && seInt[10] < 140) {
-                        sensor10.setImageResource(R.drawable.green);
+                        sensor10.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[10] >= 20 && seInt[10] < 70) {
+                        sensor10.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[10] >= 70 && seInt[10] < 120) {
+                        sensor10.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[10] >= 120 && seInt[10] < 170) {
+                        sensor10.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor10.setImageResource(R.drawable.red);
+                        sensor10.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[11] < 20) {
-                        sensor11.setImageResource(R.drawable.blue);
-                    } else if (seInt[11] >= 20 && seInt[11] < 140) {
-                        sensor11.setImageResource(R.drawable.green);
+                        sensor11.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[11] >= 20 && seInt[11] < 70) {
+                        sensor11.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[11] >= 70 && seInt[11] < 120) {
+                        sensor11.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[11] >= 120 && seInt[11] < 170) {
+                        sensor11.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor11.setImageResource(R.drawable.red);
+                        sensor11.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
+
                     if (seInt[12] < 20) {
-                        sensor12.setImageResource(R.drawable.blue);
-                    } else if (seInt[12] >= 20 && seInt[12] < 140) {
-                        sensor12.setImageResource(R.drawable.green);
+                        sensor12.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[12] >= 20 && seInt[12] < 70) {
+                        sensor12.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[12] >= 70 && seInt[12] < 120) {
+                        sensor12.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[12] >= 120 && seInt[12] < 170) {
+                        sensor12.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor12.setImageResource(R.drawable.red);
+                        sensor12.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[13] < 20) {
-                        sensor13.setImageResource(R.drawable.blue);
-                    } else if (seInt[13] >= 20 && seInt[13] < 140) {
-                        sensor13.setImageResource(R.drawable.green);
+                        sensor13.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[13] >= 20 && seInt[13] < 70) {
+                        sensor13.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[13] >= 70 && seInt[13] < 120) {
+                        sensor13.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[13] >= 120 && seInt[13] < 170) {
+                        sensor13.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor13.setImageResource(R.drawable.red);
+                        sensor13.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[14] < 20) {
-                        sensor14.setImageResource(R.drawable.blue);
-                    } else if (seInt[14] >= 20 && seInt[14] < 140) {
-                        sensor14.setImageResource(R.drawable.green);
+                        sensor14.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[14] >= 20 && seInt[14] < 70) {
+                        sensor14.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[14] >= 70 && seInt[14] < 120) {
+                        sensor14.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[14] >= 120 && seInt[14] < 170) {
+                        sensor14.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor14.setImageResource(R.drawable.red);
+                        sensor14.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[15] < 20) {
-                        sensor15.setImageResource(R.drawable.blue);
-                    } else if (seInt[15] >= 20 && seInt[15] < 140) {
-                        sensor15.setImageResource(R.drawable.green);
+                        sensor15.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[15] >= 20 && seInt[15] < 70) {
+                        sensor15.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[15] >= 70 && seInt[15] < 120) {
+                        sensor15.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[15] >= 120 && seInt[15] < 170) {
+                        sensor15.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor15.setImageResource(R.drawable.red);
+                        sensor15.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[16] < 20) {
-                        sensor16.setImageResource(R.drawable.blue);
-                    } else if (seInt[16] >= 20 && seInt[16] < 140) {
-                        sensor16.setImageResource(R.drawable.green);
+                        sensor16.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[16] >= 20 && seInt[16] < 70) {
+                        sensor16.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[16] >= 70 && seInt[16] < 120) {
+                        sensor16.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[16] >= 120 && seInt[16] < 170) {
+                        sensor16.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor16.setImageResource(R.drawable.red);
+                        sensor16.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[17] < 20) {
-                        sensor17.setImageResource(R.drawable.blue);
-                    } else if (seInt[17] >= 20 && seInt[17] < 140) {
-                        sensor17.setImageResource(R.drawable.green);
+                        sensor17.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[17] >= 20 && seInt[17] < 70) {
+                        sensor17.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[17] >= 70 && seInt[17] < 120) {
+                        sensor17.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[17] >= 120 && seInt[17] < 170) {
+                        sensor17.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor17.setImageResource(R.drawable.red);
+                        sensor17.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[18] < 20) {
-                        sensor18.setImageResource(R.drawable.blue);
-                    } else if (seInt[18] >= 20 && seInt[18] < 140) {
-                        sensor18.setImageResource(R.drawable.green);
+                        sensor18.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[18] >= 20 && seInt[18] < 70) {
+                        sensor18.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[18] >= 70 && seInt[18] < 120) {
+                        sensor18.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[18] >= 120 && seInt[18] < 170) {
+                        sensor18.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor18.setImageResource(R.drawable.red);
+                        sensor18.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[19] < 20) {
-                        sensor19.setImageResource(R.drawable.blue);
-                    } else if (seInt[19] >= 20 && seInt[19] < 140) {
-                        sensor19.setImageResource(R.drawable.green);
+                        sensor19.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[19] >= 20 && seInt[19] < 70) {
+                        sensor19.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[19] >= 70 && seInt[19] < 120) {
+                        sensor19.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[19] >= 120 && seInt[19] < 170) {
+                        sensor19.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor19.setImageResource(R.drawable.red);
+                        sensor19.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[20] < 20) {
-                        sensor20.setImageResource(R.drawable.blue);
-                    } else if (seInt[20] >= 20 && seInt[20] < 140) {
-                        sensor20.setImageResource(R.drawable.green);
+                        sensor20.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[20] >= 20 && seInt[20] < 70) {
+                        sensor20.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[20] >= 70 && seInt[20] < 120) {
+                        sensor20.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[20] >= 120 && seInt[20] < 170) {
+                        sensor20.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor20.setImageResource(R.drawable.red);
+                        sensor20.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[21] < 20) {
-                        sensor21.setImageResource(R.drawable.blue);
-                    } else if (seInt[21] >= 20 && seInt[21] < 140) {
-                        sensor21.setImageResource(R.drawable.green);
+                        sensor21.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[21] >= 20 && seInt[21] < 70) {
+                        sensor21.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[21] >= 70 && seInt[21] < 120) {
+                        sensor21.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[21] >= 120 && seInt[21] < 170) {
+                        sensor21.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor21.setImageResource(R.drawable.red);
+                        sensor21.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[22] < 20) {
-                        sensor22.setImageResource(R.drawable.blue);
-                    } else if (seInt[22] >= 20 && seInt[22] < 140) {
-                        sensor22.setImageResource(R.drawable.green);
+                        sensor22.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[22] >= 20 && seInt[22] < 70) {
+                        sensor22.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[22] >= 70 && seInt[22] < 120) {
+                        sensor22.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[22] >= 120 && seInt[22] < 170) {
+                        sensor22.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor22.setImageResource(R.drawable.red);
+                        sensor22.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
+
                     if (seInt[23] < 20) {
-                        sensor23.setImageResource(R.drawable.blue);
-                    } else if (seInt[23] >= 20 && seInt[23] < 140) {
-                        sensor23.setImageResource(R.drawable.green);
+                        sensor23.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[23] >= 20 && seInt[23] < 70) {
+                        sensor23.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[23] >= 70 && seInt[23] < 120) {
+                        sensor23.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[23] >= 120 && seInt[23] < 170) {
+                        sensor23.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor23.setImageResource(R.drawable.red);
+                        sensor23.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
+
                     if (seInt[24] < 20) {
-                        sensor24.setImageResource(R.drawable.blue);
-                    } else if (seInt[24] >= 20 && seInt[24] < 140) {
-                        sensor24.setImageResource(R.drawable.green);
+                        sensor24.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[24] >= 20 && seInt[24] < 70) {
+                        sensor24.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[24] >= 70 && seInt[24] < 120) {
+                        sensor24.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[24] >= 120 && seInt[24] < 170) {
+                        sensor24.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor24.setImageResource(R.drawable.red);
+                        sensor24.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
+
                     if (seInt[25] < 20) {
-                        sensor25.setImageResource(R.drawable.blue);
-                    } else if (seInt[25] >= 20 && seInt[25] < 140) {
-                        sensor25.setImageResource(R.drawable.green);
+                        sensor25.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[25] >= 20 && seInt[25] < 70) {
+                        sensor25.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[25] >= 70 && seInt[25] < 120) {
+                        sensor25.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[25] >= 120 && seInt[25] < 170) {
+                        sensor25.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor25.setImageResource(R.drawable.red);
+                        sensor25.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
+
                     if (seInt[26] < 20) {
-                        sensor26.setImageResource(R.drawable.blue);
-                    } else if (seInt[26] >= 20 && seInt[26] < 140) {
-                        sensor26.setImageResource(R.drawable.green);
+                        sensor26.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[26] >= 20 && seInt[26] < 70) {
+                        sensor26.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[26] >= 70 && seInt[26] < 120) {
+                        sensor26.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[26] >= 120 && seInt[26] < 170) {
+                        sensor26.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor26.setImageResource(R.drawable.red);
+                        sensor26.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
+
                     if (seInt[27] < 20) {
-                        sensor27.setImageResource(R.drawable.blue);
-                    } else if (seInt[27] >= 20 && seInt[27] < 140) {
-                        sensor27.setImageResource(R.drawable.green);
+                        sensor27.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[27] >= 20 && seInt[27] < 70) {
+                        sensor27.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[27] >= 70 && seInt[27] < 120) {
+                        sensor27.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[27] >= 120 && seInt[27] < 170) {
+                        sensor27.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor27.setImageResource(R.drawable.red);
+                        sensor27.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[28] < 20) {
-                        sensor28.setImageResource(R.drawable.blue);
-                    } else if (seInt[28] >= 20 && seInt[28] < 140) {
-                        sensor28.setImageResource(R.drawable.green);
+                        sensor28.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[28] >= 20 && seInt[28] < 70) {
+                        sensor28.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[28] >= 70 && seInt[28] < 120) {
+                        sensor28.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[28] >= 120 && seInt[28] < 170) {
+                        sensor28.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor28.setImageResource(R.drawable.red);
+                        sensor28.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[29] < 20) {
-                        sensor29.setImageResource(R.drawable.blue);
-                    } else if (seInt[29] >= 20 && seInt[29] < 140) {
-                        sensor29.setImageResource(R.drawable.green);
+                        sensor29.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[29] >= 20 && seInt[29] < 70) {
+                        sensor29.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[29] >= 70 && seInt[29] < 120) {
+                        sensor29.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[29] >= 120 && seInt[29] < 170) {
+                        sensor29.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor29.setImageResource(R.drawable.red);
+                        sensor29.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
 
                     if (seInt[30] < 20) {
-                        sensor30.setImageResource(R.drawable.blue);
-                    } else if (seInt[30] >= 20 && seInt[30] < 140) {
-                        sensor30.setImageResource(R.drawable.green);
+                        sensor30.setCardBackgroundColor(Color.parseColor("#3F0099"));
+                    } else if (seInt[30] >= 20 && seInt[30] < 70) {
+                        sensor30.setCardBackgroundColor(Color.parseColor("#660058"));
+                    } else if (seInt[30] >= 70 && seInt[30] < 120) {
+                        sensor30.setCardBackgroundColor(Color.parseColor("#870073"));
+                    } else if (seInt[30] >= 120 && seInt[30] < 170) {
+                        sensor30.setCardBackgroundColor(Color.parseColor("#99004C"));
                     } else {
-                        sensor30.setImageResource(R.drawable.red);
+                        sensor30.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
                 }
             }
@@ -407,7 +537,6 @@ public class BluetoothActivity extends AppCompatActivity {
         } else {
             if (mBluetoothAdapter.isEnabled()) {
                 Toast.makeText(getApplicationContext(), "블루투스가 이미 활성화 되어 있습니다.", Toast.LENGTH_LONG).show();
-                mTvBluetoothStatus.setText("활성화");
             } else {
                 Toast.makeText(getApplicationContext(), "블루투스가 활성화 되어 있지 않습니다.", Toast.LENGTH_LONG).show();
                 Intent intentBluetoothEnable = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
@@ -420,7 +549,6 @@ public class BluetoothActivity extends AppCompatActivity {
         if (mBluetoothAdapter.isEnabled()) {
             mBluetoothAdapter.disable();
             Toast.makeText(getApplicationContext(), "블루투스가 비활성화 되었습니다.", Toast.LENGTH_SHORT).show();
-            mTvBluetoothStatus.setText("비활성화");
         } else {
             Toast.makeText(getApplicationContext(), "블루투스가 이미 비활성화 되어 있습니다.", Toast.LENGTH_SHORT).show();
         }
@@ -432,10 +560,10 @@ public class BluetoothActivity extends AppCompatActivity {
             case BT_REQUEST_ENABLE:
                 if (resultCode == RESULT_OK) { // 블루투스 활성화를 확인을 클릭하였다면
                     Toast.makeText(getApplicationContext(), "블루투스 활성화", Toast.LENGTH_LONG).show();
-                    mTvBluetoothStatus.setText("활성화");
+
                 } else if (resultCode == RESULT_CANCELED) { // 블루투스 활성화를 취소를 클릭하였다면
                     Toast.makeText(getApplicationContext(), "취소", Toast.LENGTH_LONG).show();
-                    mTvBluetoothStatus.setText("비활성화");
+
                 }
                 break;
         }
