@@ -16,7 +16,7 @@
    
 
 ## 목차
-* ### 다운받기 전 필요한 부분
+
 ### 1. [소개](#1.-소개)
 - 프로젝트 내용 소개
 
@@ -32,7 +32,7 @@
 - 결론
 
 
-<br><br>
+<br>
 
 ## 버전 확인사항 
 
@@ -42,7 +42,8 @@
 - **필수 조건**<br>
   minSdkVersion 18<br>
   ext.kotlin_version = "1.5.0"
-  <br>
+  <br><br>
+  
 ## 1. 소개
 
 ![image](https://user-images.githubusercontent.com/74412438/148783581-524c4a92-43ee-46f5-b814-6204c159f769.png)
