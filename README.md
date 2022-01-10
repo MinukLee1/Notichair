@@ -41,7 +41,7 @@ This app corrects your sitting posture and provides feedback in real time in con
 
 이러한 환경에서 착석자세를 실시간으로 측정하고 분석해주어 현대인들의 척추건강을 개선시키는 것이 목적이다. 
 
-
+<br><br>
 
 <h4>주요 기술 및 기능</h4>
 
