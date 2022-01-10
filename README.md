@@ -7,9 +7,9 @@
 <br> 
 
 ### 요구사항
-**31-cell sensor(mdxs-16-5610)**
+**31-cell sensor**(mdxs-16-5610)
 
-    ![방석센서1](https://user-images.githubusercontent.com/74412438/148777486-e8487852-7f4d-4872-810c-7eddaafb777c.png)
+   ![방석센서1](https://user-images.githubusercontent.com/74412438/148777486-e8487852-7f4d-4872-810c-7eddaafb777c.png)
 
 ## 목차
 ### 1. 소개
