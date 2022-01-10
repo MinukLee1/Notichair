@@ -32,8 +32,9 @@
 - 결론
 
 
-<br>
-## 다운받기 전 필요한 부분
+<br><br>
+
+## 버전 확인사항 
 
 - 안드로이드 스튜디오 3.4.0 이상의 버전
 > [Android Studio Download](http://developer.android.com/studio/index.html)
