@@ -34,15 +34,6 @@
 
 <br>
 
-## 버전 확인사항 
-
-- 안드로이드 스튜디오 3.4.0 이상의 버전
-> [Android Studio Download](http://developer.android.com/studio/index.html)
-- API: 21이상
-- **필수 조건**<br>
-  minSdkVersion 18<br>
-  ext.kotlin_version = "1.5.0"
-  <br><br>
   
 ## 1. 소개
 
@@ -54,6 +45,36 @@
 대한민국 성인기준 하루 평균 의자에 앉아서 보내는 시간이 8.5시간 , 이와 더불어 코로나사회에 맞물려 늘어나는 재택근무 및 단순 여가생활 등 우리의 일상생활은 의자와 더욱 가까워지는 추세이다. 
 
 이러한 환경에서 착석자세를 실시간으로 측정하고 분석해주어 현대인들의 척추건강을 개선시키는 것이 목적이다. 
+
+<br><br>
+
+## 2. 개발 환경
+
+## 버전 확인사항
+
+- 안드로이드 스튜디오 3.4.0 이상의 버전
+> [Android Studio Download](http://developer.android.com/studio/index.html)
+- API: 21이상
+- **필수 조건**<br>
+  minSdkVersion 18<br>
+  ext.kotlin_version = "1.5.0"
+  <br><br>
+<br>
+
+
+| **Category**  | <center>**Tools**</center>  | **Version**  |
+| :------------: | ------------| :------------: |
+| **Jetson-nano** | Image  |  jetson-nano-jp451  |
+|   | python  | 3.6.9  |
+| **Application** | AndroidStudio  |  4.1.0 |
+|   | compileSdkVersion  | 30  |
+|   | buildToolsVersion  | 30.0.2  |
+| **Server**  | OS  | CentOS 7.9 2009  |
+|   | Django | 3.2.2  |
+|   | DjangoRestframework  |  3.12.4 |
+|   | Gunicorm  | 20.1.0  |
+|   | MySql-Client  |  2.0.3 |
+| **DataBase**  | MySql  | 8.0.25  |
 
 <br><br>
 
@@ -87,24 +108,7 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/46085058/131226185-d0ff5001-6574-49ce-b798-756dc0982f58.png"></p>
 
 
-<br>
 
-
-| **Category**  | <center>**Tools**</center>  | **Version**  |
-| :------------: | ------------| :------------: |
-| **Jetson-nano** | Image  |  jetson-nano-jp451  |
-|   | python  | 3.6.9  |
-| **Application** | AndroidStudio  |  4.1.0 |
-|   | compileSdkVersion  | 30  |
-|   | buildToolsVersion  | 30.0.2  |
-| **Server**  | OS  | CentOS 7.9 2009  |
-|   | Django | 3.2.2  |
-|   | DjangoRestframework  |  3.12.4 |
-|   | Gunicorm  | 20.1.0  |
-|   | MySql-Client  |  2.0.3 |
-| **DataBase**  | MySql  | 8.0.25  |
-
-<br>
 
 
 ## 3. 기능
