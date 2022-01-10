@@ -13,6 +13,7 @@
 **31-cell sensor** (mdxs-16-5610)<br><br>
 
 
+
    
 
 ## 목차
@@ -76,7 +77,7 @@
 <br>
 
 <h4>하드웨어 구성</h4>
-![방석센서33-removebg-preview (1)](https://user-images.githubusercontent.com/74412438/148797255-e9fca945-967d-4359-aa65-fff4b3878199.png)
+![방석센서34](https://user-images.githubusercontent.com/74412438/148797332-059521c7-43f6-4110-bc33-a6fe76180178.png)
 
 
 <br>
