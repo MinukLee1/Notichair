@@ -10,7 +10,8 @@
 * [NVIDIA Jetson Nano Development Kit-B01](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
 
     ![jetsnoback](https://user-images.githubusercontent.com/46085058/131222247-93795620-346a-4c82-a206-72a8e600f5a6.png)
-![방석센서](https://user-images.githubusercontent.com/74412438/148776887-e4c4e222-e82c-4534-9050-cac09dfe1739.png)
+    ![방석센서1](https://user-images.githubusercontent.com/74412438/148777486-e8487852-7f4d-4872-810c-7eddaafb777c.png)
+
 
 ## 목차
 ### 1. 소개
