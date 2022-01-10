@@ -12,22 +12,16 @@
 ![방석센서1](https://user-images.githubusercontent.com/74412438/148777486-e8487852-7f4d-4872-810c-7eddaafb777c.png)<br>
 **31-cell sensor** (mdxs-16-5610)<br><br>
 
-## 다운받기 전 필요한 부분
 
-- 안드로이드 스튜디오 3.4.0 이상의 버전
-> [Android Studio Download](http://developer.android.com/studio/index.html)
-- API: 21이상
-- **필수 조건**<br>
-  minSdkVersion 18<br>
-  ext.kotlin_version = "1.5.0"
    
 
 ## 목차
+* ### [다운받기 전 필요한 부분]
 ### 1. [소개](#1.-소개)
 - 프로젝트 내용 소개
 
 
-### 2. 개발 환경(#1.-소개)
+### 2. 개발 환경
 - 사전 설정 및 환경 구축
 
 ### 3. 기능
@@ -39,7 +33,15 @@
 
 
 <br>
+## 다운받기 전 필요한 부분
 
+- 안드로이드 스튜디오 3.4.0 이상의 버전
+> [Android Studio Download](http://developer.android.com/studio/index.html)
+- API: 21이상
+- **필수 조건**<br>
+  minSdkVersion 18<br>
+  ext.kotlin_version = "1.5.0"
+  <br>
 ## 1. 소개
 
 ![image](https://user-images.githubusercontent.com/74412438/148783581-524c4a92-43ee-46f5-b814-6204c159f769.png)
