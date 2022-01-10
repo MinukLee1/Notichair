@@ -30,6 +30,7 @@
 <br>
 
 ## 1. 소개
+
 ![image](https://user-images.githubusercontent.com/74412438/148783581-524c4a92-43ee-46f5-b814-6204c159f769.png)
 
 
@@ -39,6 +40,7 @@ This app corrects your sitting posture and provides feedback in real time in con
 대한민국 성인기준 하루 평균 의자에 앉아서 보내는 시간이 8.5시간 , 이와 더불어 코로나사회에 맞물려 늘어나는 재택근무 및 단순 여가생활 등 우리의 일상생활은 의자와 더욱 가까워지는 추세이다. 
 
 이러한 환경에서 착석자세를 실시간으로 측정하고 분석해주어 현대인들의 척추건강을 개선시키는 것이 목적이다. 
+
 
 
 <h4>주요 기술 및 기능</h4>
