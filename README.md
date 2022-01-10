@@ -30,7 +30,8 @@
 <br>
 
 ## 1. 소개
-[image](https://user-images.githubusercontent.com/74412438/148783494-aec9b985-11a8-4755-bf49-6f1c9356bbb0.png)
+![image](https://user-images.githubusercontent.com/74412438/148783581-524c4a92-43ee-46f5-b814-6204c159f769.png)
+
 
 This app corrects your sitting posture and provides feedback in real time in conjunction with the app. A sensor of 31 cells detects your posture to get better life-wellness
 31개의 착석구조로 배열된 cell-sensor에 기반하여 실시간으로 사용자의 자세분석 및 교정을 제공한다. 
