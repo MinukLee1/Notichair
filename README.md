@@ -20,8 +20,6 @@
 - 사전 설정 및 환경 구축
 
 ### 3. 기능
-- 데이터셋 구축 - Lableme
-- 도로 구분 - Semantic Segmentation
 - Sensors
 - App & Server
 
@@ -31,7 +29,7 @@
 
 <br>
 
-## 1. 소개 - [YouTube 소개 영상](https://www.youtube.com/watch?v=Ps39QcEkKhw)
+## 1. 소개
 
 Jetson Nano에 기반하여 어린이 안전을 위한 스마트 배지를 구현한다. 
 
