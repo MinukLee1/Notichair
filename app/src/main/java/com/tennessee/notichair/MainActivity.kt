@@ -1,5 +1,6 @@
 package com.tennessee.notichair
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -14,14 +15,18 @@ class MainActivity : AppCompatActivity(), NavigationBarView.OnItemSelectedListen
     override fun onNavigationItemSelected(p0: MenuItem): Boolean {
         when (p0.itemId){
             R.id.action_home -> {
-                var mainFragment = MainFragment()
-                supportFragmentManager.beginTransaction().replace(R.id.main_content, mainFragment).commit()
-                return true
+                /* var mainFragment = MainFragment()
+                 supportFragmentManager.beginTransaction().replace(R.id.main_content, mainFragment).commit()
+                 return true*/
+                val intent = Intent(this, youtubeview::class.java)
+                startActivity(intent)
             }
             R.id.action_sensorview -> {
-                var sensorViewFragment = SensorViewFragment()
-                supportFragmentManager.beginTransaction().replace(R.id.main_content, sensorViewFragment).commit()
-                return true
+                /* var sensorViewFragment = SensorViewFragment()
+                 supportFragmentManager.beginTransaction().replace(R.id.main_content, sensorViewFragment).commit()
+                 return true*/
+                val intent = Intent(this, BluetoothActivity::class.java)
+                startActivity(intent)
             }
             R.id.action_mypage -> {
                 var userFragment = UserFragment()

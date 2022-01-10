@@ -17,12 +17,39 @@
             android:layout_height="match_parent"
             android:orientation="vertical" >
 
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/my_Toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/logo_title" />
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <LinearLayout
+                android:id="@+id/toolbar_division"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/my_Toolbar"
+                android:background="@color/colorDivision"
+                android:orientation="horizontal"></LinearLayout>
+
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:cardCornerRadius="15dp"
         android:layout_gravity="center"
-        app:cardElevation="0dp">
+        app:cardElevation="0dp"
+        android:layout_marginTop="10dp">
 
         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
             android:layout_width="match_parent"
