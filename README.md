@@ -76,8 +76,8 @@
 <br>
 
 <h4>하드웨어 구성</h4>
+![방석센서33-removebg-preview (1)](https://user-images.githubusercontent.com/74412438/148797171-e1c0fbbe-8014-4200-aa92-8c945c4a539d.png)
 
-![방석센서33](https://user-images.githubusercontent.com/74412438/148797058-860d57f5-19a6-4aa8-abba-c1f04e86ca6e.png)
 
 <br>
 <h4>예시</h4>
