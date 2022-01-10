@@ -8,8 +8,17 @@
 
 ### 요구사항
 **31-cell sensor** (mdxs-16-5610)
+![방석센서1](https://user-images.githubusercontent.com/74412438/148777486-e8487852-7f4d-4872-810c-7eddaafb777c.png)
 
-   ![방석센서1](https://user-images.githubusercontent.com/74412438/148777486-e8487852-7f4d-4872-810c-7eddaafb777c.png)
+# 다운받기 전 필요한 부분
+
+- 안드로이드 스튜디오 3.4.0 이상의 버전
+> [Android Studio Download](http://developer.android.com/studio/index.html)
+- API: 21이상
+- **openCV의 사용을 위한 NDK, CMake 설치**<br>
+  NDK Version   : 20.0.5594570<br>
+  CMake Version : 3.10.2.4988404
+   
 
 ## 목차
 ### 1. [소개](#1.-소개)
