@@ -36,13 +36,10 @@
 This app corrects your sitting posture and provides feedback in real time in conjunction with the app. A sensor of 31 cells detects your posture to get better life-wellness
 31개의 착석구조로 배열된 cell-sensor에 기반하여 실시간으로 사용자의 자세분석 및 교정을 제공한다. 
 
-꾸준히 발생하고 있는 실종 아동 문제와 어린이 교통사고 문제는 어린이들의 안전을 위협하고 있으며, 아이가 있는 보호자들의 불안감을 야기한다. 
+대한민국 성인기준 하루 평균 의자에 앉아서 보내는 시간이 8.5시간 , 이와 더불어 코로나사회에 맞물려 늘어나는 재택근무 및 단순 여가생활 등 우리의 일상생활은 의자와 더욱 가까워지는 추세이다. 
 
-이러한 문제를 해결하기 위해 제안된 어린이 스마트 배지의 시스템은 세 가지로 구성되어 있다.
+이러한 환경에서 착석자세를 실시간으로 측정하고 분석해주어 현대인들의 척추건강을 개선시키는 것이 목적이다. 
 
-- 어린이용 배지
-- Server
-- 보호자용 App
 
 <h4>주요 기술 및 기능</h4>
 
