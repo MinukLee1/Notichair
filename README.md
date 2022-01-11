@@ -71,7 +71,7 @@
 
 ## Firebase Authentication 설정하기
 <br>
-Google 로그인을 사용 하므로 '디버그 서명 인증서 SHA-1'을 알아야 한다. <br>
+Google 로그인을 사용 하므로 '디버그 서명 인증서 SHA-1'을 알아야 한다. <br><br>
 
 'SHA-1' 추출법 : 안드로이드 스튜디오 내 Gradle -> Tasks->android->signInReport
 ![image](https://user-images.githubusercontent.com/74412438/148934855-290a9772-76c7-45f4-9d6d-1b4324f76f02.png)
