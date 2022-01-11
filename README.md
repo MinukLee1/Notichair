@@ -65,16 +65,18 @@
   <br><br>
 ## Firebase 연동 
  
-[Firebase](https://console.firebase.google.com/) 사이트에 접속해서 프로젝트 추가한다. 안드로이드 앱을 추가하여 시작한다.
+[Firebase](https://console.firebase.google.com/) 사이트에 접속해서 프로젝트 추가한다. 안드로이드 앱을 추가하여 시작한다.<br>
 //앱 추가하는 부분 이미지 <br><br>
 
 ## Firebase Authentication 설정하기
 <br>
+//설정 설명 부분
 
 ## 페이스북 연동하기 
 
 [페이스북 개발자 ](https://developers.facebook.com/) 사이트 접속해서 로그인을 한 뒤 '새 앱 추가'를 한다.
- 제품 추가에서 페이스북 로그인을 선택한다. 로그인 플랫폼 선택에서 안드로이드를 클릭한다.
+ 제품 추가에서 페이스북 로그인을 선택한다. 로그인 플랫폼 선택에서 안드로이드를 클릭한다.<br>
+ //페이스북 연동 설명 부분
 
 <br>
 
