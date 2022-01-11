@@ -88,6 +88,10 @@ build.gradle (moudle :app )에 작성한다.
 ![image](https://user-images.githubusercontent.com/74412438/148941595-dd434afe-d604-4ac2-ad03-5cbfaaed4b25.png)
 ![image](https://user-images.githubusercontent.com/74412438/148948078-09fc4a49-b204-48e1-ba2e-33aa93e58d4c.png)
 
+Android Studio에 Firebase 추가 완료
+
+Firebase Authentication 설정하기
+이메일/비밀번호 로그인과 , 구글 로그인 , 페이스북 로그인을 사용 하는데, Authentication의 Sign-in method의 3가지 로그인 방법을 활성화 시킨다. 이메일/비밀번호 로그인, 구글 로그인은 파이어베이스 사이트에서 해결 할 수 있지만, 페이스북 로그인은 페이스북 개발자 사이트에 접속을 해서 연결시켜야 한다.
 
 ## 페이스북 연동하기 
 
