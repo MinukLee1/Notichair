@@ -21,6 +21,8 @@ import com.google.firebase.auth.GoogleAuthProvider
 import kotlinx.android.synthetic.main.activity_login.*
 import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
+import com.bumptech.glide.Glide
+import kotlinx.android.synthetic.main.activity_login.*
 
 
 class LoginActivity : AppCompatActivity() {
@@ -31,6 +33,9 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+
+        Glide.with(this).load(R.raw.chair2).into(logoimage2)
+
         auth = FirebaseAuth.getInstance()
         email_login_button.setOnClickListener{
             signinAndSignup()

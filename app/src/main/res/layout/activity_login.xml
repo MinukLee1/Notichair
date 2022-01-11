@@ -24,15 +24,15 @@
         android:id="@+id/gif_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/signin_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="321dp"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:layout_above="@+id/signin_layout"
-            android:layout_marginBottom="200dp"
-            android:src="@drawable/main_title" />
+            android:id="@+id/logoimage2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@raw/chair2" />
     </LinearLayout>
 
     <LinearLayout
