@@ -19,4 +19,8 @@
     <color name="colorGoogleSignInPressed">#b02513</color>
     <color name="colorEmailSignIn">#009688</color>
     <color name="colorEmailSignInPressed">#004D40</color>
+
+    <color name="red">#FF0000</color>
+    <color name="green">#53C14B</color>
+
 </resources>

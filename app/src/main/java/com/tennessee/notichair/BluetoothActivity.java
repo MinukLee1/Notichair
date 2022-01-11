@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.view.View;
@@ -28,7 +29,11 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+import java.util.Timer;
+import java.util.TimerTask;
 import java.util.UUID;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class BluetoothActivity extends AppCompatActivity {
     Button mBtnBluetoothOn;
@@ -38,6 +43,8 @@ public class BluetoothActivity extends AppCompatActivity {
     CardView sensor0, sensor1, sensor2, sensor3, sensor4, sensor5, sensor6, sensor7, sensor8, sensor9, sensor10;
     CardView sensor11, sensor12, sensor13, sensor14, sensor15, sensor16, sensor17, sensor18, sensor19, sensor20;
     CardView sensor21, sensor22, sensor23, sensor24, sensor25, sensor26, sensor27, sensor28, sensor29, sensor30;
+
+    CircleImageView image_posture;
 
     BluetoothAdapter mBluetoothAdapter;
     Set<BluetoothDevice> mPairedDevices;
@@ -95,7 +102,7 @@ public class BluetoothActivity extends AppCompatActivity {
         sensor29 = findViewById(R.id.sensor29);
         sensor30 = findViewById(R.id.sensor30);
 
-
+        image_posture = findViewById(R.id.image_posture);
 
 
         //   mBtnSendData = findViewById(R.id.btnSendData);
@@ -523,12 +530,34 @@ public class BluetoothActivity extends AppCompatActivity {
                     } else {
                         sensor30.setCardBackgroundColor(Color.parseColor("#AA1212"));
                     }
+
+                    //set image_posture
+
+                    if (seInt[1] > 70 && seInt[6] > 100 && seInt[10] > 70 && seInt[20] < 30 && seInt[24] < 30 && seInt[30] < 30){
+                        image_posture.setImageResource(R.drawable.left_posture);
+                        image_posture.setBorderColor(getColor(R.color.red));
+                        Toast.makeText(getApplicationContext(),"자세가 올바르지 않습니다!",Toast.LENGTH_SHORT).show();
+                    } else if (seInt[30] > 70 && seInt[24] > 100 && seInt[20] > 70 && seInt[1] < 30 && seInt[6] < 30 && seInt[10] < 30){
+                        image_posture.setImageResource(R.drawable.right_posture);
+                        image_posture.setBorderColor(getColor(R.color.red));
+                        Toast.makeText(getApplicationContext(),"자세가 올바르지 않습니다!",Toast.LENGTH_SHORT).show();
+                    } else if (seInt[12] > 100 && seInt[18] > 100 && seInt[4] < 30 && seInt[26] < 30){
+                        image_posture.setImageResource(R.drawable.front_posture);
+                        image_posture.setBorderColor(getColor(R.color.red));
+                        Toast.makeText(getApplicationContext(),"자세가 올바르지 않습니다!",Toast.LENGTH_SHORT).show();
+                    } else if (seInt[4] > 100 && seInt[26] > 100 && seInt[12] < 30 && seInt[18] < 30){
+                        image_posture.setImageResource(R.drawable.back_posture);
+                        image_posture.setBorderColor(getColor(R.color.red));
+                        Toast.makeText(getApplicationContext(),"자세가 올바르지 않습니다!",Toast.LENGTH_SHORT).show();
+                    } else {
+                        image_posture.setImageResource(R.drawable.nice_posture);
+                        image_posture.setBorderColor(getColor(R.color.green));
+                        Toast.makeText(getApplicationContext(),"자세가 올바르지 않습니다!",Toast.LENGTH_SHORT).show();
+                    }
                 }
             }
         };
     };
-
-
 
 
     void bluetoothOn() {

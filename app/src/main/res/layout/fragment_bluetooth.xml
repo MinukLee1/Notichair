@@ -40,15 +40,26 @@
 
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="30dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_posture"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/nice_posture"
+                app:civ_border_width="4dp"
+                app:civ_border_color="#53C14B"
+                />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="260dp">
+            android:layout_height="wrap_content">
 
             <Button
                 android:id="@+id/btnBluetoothOn"
@@ -131,7 +142,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="59dp">
+                android:layout_marginTop="64dp">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/sensor5"
@@ -244,7 +255,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="52dp"
                 android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
@@ -277,8 +288,8 @@
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/sensor4"
-                    android:layout_width="17dp"
-                    android:layout_height="11dp"
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
                     android:layout_marginLeft="2.5dp"
                     app:cardCornerRadius="4dp"></androidx.cardview.widget.CardView>
 
