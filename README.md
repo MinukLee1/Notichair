@@ -77,13 +77,16 @@ Google 로그인을 사용 하므로 '디버그 서명 인증서 SHA-1'을 알�
 ![image](https://user-images.githubusercontent.com/74412438/148934855-290a9772-76c7-45f4-9d6d-1b4324f76f02.png)
 <br><br>
 
-구성 파일을 다운로드 한 뒤 , 생성된 프로젝트 파일->app 폴더 에다가 저장한다. 
+구성 파일을 다운로드 한 뒤, 생성된 프로젝트 파일-> app 폴더에 저장한다.
 <br><br>
 
 ![image](https://user-images.githubusercontent.com/74412438/148936441-1ce71695-f267-4d48-b129-992a1923da01.png)
 
-build.gradle (moudle : project) 부분에 작성한다.
+build.gradle (moudle :app )에 작성한다.
 <br><br>
+![image](https://user-images.githubusercontent.com/74412438/148940676-04fec567-dc2a-4deb-92a8-027d6137f4b6.png)
+![image](https://user-images.githubusercontent.com/74412438/148941595-dd434afe-d604-4ac2-ad03-5cbfaaed4b25.png)
+
 
 ## 페이스북 연동하기 
 
