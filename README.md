@@ -86,6 +86,7 @@ build.gradle (moudle :app )에 작성한다.
 <br><br>
 ![image](https://user-images.githubusercontent.com/74412438/148940676-04fec567-dc2a-4deb-92a8-027d6137f4b6.png)
 ![image](https://user-images.githubusercontent.com/74412438/148941595-dd434afe-d604-4ac2-ad03-5cbfaaed4b25.png)
+![image](https://user-images.githubusercontent.com/74412438/148948031-b84365fe-dde2-4161-bddc-e74e2f582c91.png)
 
 
 ## 페이스북 연동하기 
