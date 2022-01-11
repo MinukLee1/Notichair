@@ -98,9 +98,14 @@ Firebase Authentication 설정하기
 [페이스북 개발자](https://developers.facebook.com/) 사이트 접속해서 로그인을 한 뒤 '새 앱 추가'를 한다.
  제품 추가에서 페이스북 로그인을 선택한다. 로그인 플랫폼 선택에서 안드로이드를 클릭한다.<br>
  
- builde.gralde(Module:app)
-implementation 'com.facebook.android: facebook-android-sdk:[4,5)')
-컴파일문을 추가하여 최신 버전의 SDK를 컴파일한다.
+<br>
+
+####   builde.gralde(Module:app)
+
+  `implementation 'com.facebook.android: facebook-android-sdk:[4,5)')`  
+     컴파일문을 추가하여 최신 버전의 SDK를 컴파일한다.
+
+<br>
 
 
 
