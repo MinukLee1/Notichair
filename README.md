@@ -65,7 +65,7 @@
   <br><br>
 ## Firebase 연동 
  
-[Firebase](https://console.firebase.google.com/) 사이트에 접속해서 프로젝트 추가한다. 안드로이드 앱을 추가하여 시작한다.<br>
+[Firebase](https://console.firebase.google.com/)에 접속하여 새 프로젝트를 시작한다. 이후 안드로이드 앱을 추가하여 시작한다.<br>
 ![fireabase1](https://user-images.githubusercontent.com/74412438/148933062-37337baa-217c-4045-ac58-40038069e5bb.png)
 <br><br>
 
