@@ -72,7 +72,7 @@
 - 착석형태에 따라 사용자의 착석패턴을 교정할수있도록 실시간으로 피드백을 줌으로서 즉각적인 자세교정효과를 기대할수있다. <br><br>
 <br>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/50138845/131224422-3c02967e-114d-4ed5-b622-8628487b54a6.gif"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/50138845/131224422-3c02967e-114d-4ed5-b622-8628487b54a6.gif"></p> //착성상태에 따른 변화 이미지
 
 <br>
 
