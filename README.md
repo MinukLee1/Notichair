@@ -1,7 +1,8 @@
 # Notichair <br> 
 **실시간 자세분석 및 교정 스마트체어**
 
-![notichair](https://user-images.githubusercontent.com/79950091/148927494-579f83d3-e8ae-4ec9-956a-529400c2f9b5.png)
+
+<img src = "https://user-images.githubusercontent.com/79950091/148927494-579f83d3-e8ae-4ec9-956a-529400c2f9b5.png"                   width= "200" height = "100"/>
 
 > 🏆 상명대학교 PRIME 경진대회 수상 🏆
 
