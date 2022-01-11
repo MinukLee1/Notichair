@@ -88,7 +88,7 @@
 - 이메일을 통한 회원가입
 - Firebase 연동 <br><br>
 
-## 2. 메인화면<br>
+### 2. 메인화면<br>
 //센서뷰단 이미지<br>
 
 - 사용자의 자세 및 착석형태에 따른 real-time data를 31개의 cell-sensor를 통하여 실시간으로 받아들이고 이를 압력값에 따라 색상의 가시화된 형태로 피드백을 준다. 
@@ -99,6 +99,8 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/50138845/131224422-3c02967e-114d-4ed5-b622-8628487b54a6.gif"></p> //착성상태에 따른 변화 이미지
 
 <br>
+### 3. 마이페이지<br>
+### 4. 운도영상<br>
 
 <h4>하드웨어 구성</h4>
 ![방석센서34](https://user-images.githubusercontent.com/74412438/148797607-0f518d6c-9bb3-47d4-9348-aca511603b3c.png)
