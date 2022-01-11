@@ -126,8 +126,8 @@ Firebase Authentication 설정하기
 
 | <center>착석 형태</center>  | <center>real-time data</center>  | <center>설명</center>  |
 | ------------ | ------------ |------------ |
-| 미착석 | ![image](https://user-images.githubusercontent.com/74412438/148959180-6294ca92-cad9-4227-a6bd-4b434bebf6a8.png)  | 사용자가 착석하지 않은 상태로서 모든 셀에서 0이 수신된다.  |
-| 횡단보도  | ![image](https://user-images.githubusercontent.com/50138845/131224619-3b1dfb01-04a9-4a6c-a022-f6c228a01a1d.png)  | 판단 영역이 횡단보도로 판단될 경우 어린이가 횡단보도 앞에 있다고 판단하며 보호자의 음성 알림( 예시: “00아 초록불 일 땐 양옆을 살피고 빨간불에는 멈춰!” )이 울린다.  |
+| non press | ![image](https://user-images.githubusercontent.com/74412438/148959180-6294ca92-cad9-4227-a6bd-4b434bebf6a8.png)  | 사용자가 착석하지 않은 상태로서 모든 셀에서 0이 수신된다.  |
+| front press | ![image](https://user-images.githubusercontent.com/50138845/131224619-3b1dfb01-04a9-4a6c-a022-f6c228a01a1d.png)  | 판단 영역이 횡단보도로 판단될 경우 어린이가 횡단보도 앞에 있다고 판단하며 보호자의 음성 알림( 예시: “00아 초록불 일 땐 양옆을 살피고 빨간불에는 멈춰!” )이 울린다.  |
 | 도로  | ![image](https://user-images.githubusercontent.com/50138845/131224649-bd309439-b6bf-402c-8710-baf924f22166.png)|  판단 영역이 차도로 판단될 경우 어린이가 차도를 향해서 보행하고 있어 위험하다고 판단하며 보호자의 음성 알림(예시: “00아 도로에서 뛰면 위험해 횡단보도로 건너”)이 울린다. |
 |   | <center>무단횡단의 경우</center>|  판단 영역이 차도로 판단된 후 가속도 센서의 변화가 일정량 감지되면 어린이가 차도 방향으로 무단횡단을 시도하는 것으로 판단되어 보호자의 음성 알림(예시: “00아 무단횡단은 안돼! 횡단보도로 건너”)이 울린다. |
 
