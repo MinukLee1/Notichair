@@ -65,7 +65,7 @@
   <br><br>
 ## Firebase 연동 
  
-[Firebase](https://console.firebase.google.com/)에 접속하여 새 프로젝트를 시작한다. 이후 안드로이드 앱을 추가하여 시작한다.<br>
+[Firebase](https://console.firebase.google.com/)에 접속하여 새 프로젝트를 시작한다. 이후 안드로이드 앱을 추가하여 시작한다.<br><br>
 ![fireabase1](https://user-images.githubusercontent.com/74412438/148933062-37337baa-217c-4045-ac58-40038069e5bb.png)
 <br><br>
 
@@ -73,7 +73,7 @@
 <br>
 Google 로그인을 사용 하므로 '디버그 서명 인증서 SHA-1'을 알아야 한다. <br><br>
 
-'SHA-1' 추출법 : 안드로이드 스튜디오 내 Gradle -> Tasks->android->signInReport
+'SHA-1' 추출법 : 안드로이드 스튜디오 내 Gradle -> Tasks->android->signInReport<br><br>
 ![image](https://user-images.githubusercontent.com/74412438/148934855-290a9772-76c7-45f4-9d6d-1b4324f76f02.png)
 
 ## 페이스북 연동하기 
