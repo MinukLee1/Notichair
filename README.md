@@ -105,7 +105,8 @@ Firebase Authentication 설정하기
   `implementation 'com.facebook.android: facebook-android-sdk:[4,5)')`  
      컴파일문을 추가하여 최신 버전의 SDK를 컴파일한다.
 
-<br>
+<br><br>
+![image](https://user-images.githubusercontent.com/74412438/148961832-e55b2734-cd4e-4621-acb9-1769877d8cf8.png)
 
 
 
