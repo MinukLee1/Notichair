@@ -552,7 +552,6 @@ public class BluetoothActivity extends AppCompatActivity {
                     } else {
                         image_posture.setImageResource(R.drawable.nice_posture);
                         image_posture.setBorderColor(getColor(R.color.green));
-                        Toast.makeText(getApplicationContext(),"자세가 올바르지 않습니다!",Toast.LENGTH_SHORT).show();
                     }
                 }
             }
