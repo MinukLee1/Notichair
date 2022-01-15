@@ -284,8 +284,7 @@ Ray Casting 알고리즘
 
 
 ### Sensors
-mdxs-16-5610<br>
-
+[mdxs-16-5610](https://botland.store/pressure-sensors/14063-force-sensor-mdxs-16-5610-5904422321840.html)<br>
 
 <br> 
  
