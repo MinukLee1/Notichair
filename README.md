@@ -145,7 +145,7 @@ Firebase Authentication 설정하기
 
 <br>
 ### 3. 마이페이지<br>
-### 4. 운도영상<br>
+### 4. 운동영상<br>
 
 <h4>하드웨어 구성</h4>
 ![방석센서34](https://user-images.githubusercontent.com/74412438/148797607-0f518d6c-9bb3-47d4-9348-aca511603b3c.png)
@@ -158,14 +158,6 @@ Firebase Authentication 설정하기
 ![image](https://user-images.githubusercontent.com/46085058/131228361-7a1b7f6a-668e-44c4-8859-dfd7f92bed66.png)
 
 <br>
-
-## 2. 개발 환경
-
-**시스템 구성도**
-
-<p align="center"><img src="https://user-images.githubusercontent.com/46085058/131226185-d0ff5001-6574-49ce-b798-756dc0982f58.png"></p>
-
-
 
 
 
@@ -207,11 +199,6 @@ Semantic Segmentation을 통하여 알 수 있는 픽셀 당 Class는 행렬로 
 
 <br>
 
-
-### Application & Server
-
-[Application Repository](https://github.com/TalkingPotato-Project/SmartBadge-App) <br>
-[Server Repository](https://github.com/TalkingPotato-Project/SmartBadge-Server)
 
 ### Application
 
@@ -256,7 +243,7 @@ Semantic Segmentation을 통하여 알 수 있는 픽셀 당 Class는 행렬로 
 <br><br><br>
 
 
-Ray Casting 알고리즘
+ 알고리즘
 
 <br>
 
