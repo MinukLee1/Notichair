@@ -270,4 +270,4 @@ Notichair는 mdxs-16-5610센서를 31개의 cell에서 실시간으로 데이터
 실시간으로 받아지는 세밀한 데이터 셋을 더 정밀하게 구축하여 사용자의 자세교정에 보다 더 정확한 피드백을 주는것을 목적으로 지속적인 연구 및 업데이트를 수행할 예정이다.
 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/50138845/131226399-d204a2b7-89fe-48af-8231-feb58aafabe1.png" width = 300px></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/74412438/152303157-a4577632-3c54-424b-b01a-d7864ac52fca.png" width = 300px></p>
