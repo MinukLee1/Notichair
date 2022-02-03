@@ -240,21 +240,6 @@ Semantic Segmentation을 통하여 알 수 있는 픽셀 당 Class는 행렬로 
 
 <br>
 
-### Server
-
-#### WAS 서버 구조
-
-<p align="center"><img src="https://user-images.githubusercontent.com/46085058/131227251-0de08596-429b-4f85-a102-29ce8e630cea.png"></p>
-
-어린이 스마트 배지로 HTTP 통신을 수행하기 위해 웹 서버는 Nginx를 사용하였고, 어린이 스마트 배지에서 실시간 위치 정보를 서버로 전송하기 때문에 REST 방식의 서버를 설계할 수 있도록 애플리케이션 프레임워크로 Django restframework를 사용하였다. 미들웨어로는 Nginx와 Django의 호환성이 높은 Gunicorn WSGI를 사용하였다. Gunicorn은 Nginx와 함께 역방향 프록시 구성으로 배포되며 Nginx와 Django framework의 사이에서 요청과 응답을 전달한다.
-<br><br><br>
-
-#### Server DB Table
-
-<p align="center"><img src="https://user-images.githubusercontent.com/46085058/131227274-7a273252-7f5a-44dd-bef5-66b8e2a9fd57.png"></p>
-
-서버의 DB(Data Base)는 MySQL DB를 사용하였다. 서버의 DB Table은 위 <그림 10>과 같다. DB에는 어린이 스마트 배지 구동을 위해 사용자 정보를 저장하는 users table에 어린이 스마트 배지의 일련번호, 사용자 고유 ID 값을 저장한다. 저장된 사용자 정보는 Application에서 데이터를 요청할 때 인증 절차에 사용된다. voicefile table은 보호자가 Application에서 상황별 알림을 녹음한 파일이 저장된다. gpsroute, jaywalking, newroute table의 경우 어린이 보행 안전 확보와 실종 사고를 예방하기 위해서 GPS 정보 저장의 목적으로 활용된다.
-<br><br><br>
 
 
 #### GPS정보 분석 및 안심 구역 이탈 감지
