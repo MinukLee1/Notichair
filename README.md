@@ -152,15 +152,6 @@ Firebase Authentication 설정하기
 
 
 <br>
-<h4>예시</h4>
-
-![image](https://user-images.githubusercontent.com/46085058/131228361-7a1b7f6a-668e-44c4-8859-dfd7f92bed66.png)
-
-<br>
-
-
-
-
 
 
 <br> 
